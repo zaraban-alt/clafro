@@ -18,5 +18,5 @@ echo "✅ Code pushed to GitHub"
 
 echo "🌐 Make sure GitHub Pages is enabled:"
 echo "Settings -> Pages -> Source: 'Deploy from a branch' -> Branch: main / root"
-
+echo "🌐 visit: https://zaraban-alt.github.io/clafro/"
 echo "🎉 Done!"
