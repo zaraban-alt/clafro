@@ -17,6 +17,7 @@ document.getElementById('orderForm').addEventListener('submit', (event) => {
     const name = form.name.value.trim();
     const phone = form.phone.value.trim();
     const city = form.city.value.trim();
+    const pack = form.elements.pack ? form.elements.pack.value : '1 منتج - 199 درهم';
     const message = [
         'سلام، بغيت نأكد الطلبية ديالي ديال Clafro.',
         '',
@@ -26,7 +27,7 @@ document.getElementById('orderForm').addEventListener('submit', (event) => {
         `رقم الهاتف: ${phone}`,
         `المدينة: ${city}`,
         `المنتج: Clafro Anti Dandruff Spray 100ml`,
-        `الثمن: 199 درهم`,
+        `العرض المختار: ${pack}`,
         '',
         'بغيت الدفع يكون عند الاستلام. شكرا.'
     ].join('\n');
